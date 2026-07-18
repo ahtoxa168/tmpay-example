@@ -1,8 +1,8 @@
 <?php
 // topup.php - ระบบเติมเงิน TMPAY
 
-$merchant_id = 'YOUR_MERCHANT_ID_HERE'; // เปลี่ยนเป็นของคุณ
-$resp_url = 'https://yourwebsite.com/tmpay_callback.php'; // เปลี่ยนเป็น URL จริงของคุณ (แนะนำ HTTPS)
+$merchant_id = 'YOUR_MERCHANT_ID_HERE'; // เปลี่ยน Merchant ID ของคุณ
+$resp_url = 'https://yourwebsite.com/tmpay_callback.php'; // URL สำหรับส่งข้อมูลกลับ
 ?>
 
 <!DOCTYPE html>
