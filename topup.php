@@ -1,6 +1,6 @@
 <?php
 // ตัวอย่างฟังก์ชันเติมเงิน
-function tmpay_topup($password, $channel = 'truemoney') {
+function tmpay_topup($password, $channel) {
     $merchant_id = 'YOUR_MERCHANT_ID';     // ได้จาก TMPAY
     $resp_url = 'https://yourwebsite.com/tmpay_callback.php'; // URL รับผลลัพธ์ (ต้องเป็น HTTPS แนะนำ)
 
